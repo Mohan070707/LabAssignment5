@@ -18,14 +18,16 @@ Follow these steps to clone and run the project on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Mohan070707/LabAssignment5/helloworld_project
-   cd helloworld_project
+   git clone https://github.com/Mohan070707/LabAssignment5
+   cd LabAssignment5 && cd helloworld_project
    ```
 
 2. **Create a virtual environment (optional but recommended):**
    ```bash
    python -m venv venv
-   source venv/bin/activate  
+
+   windows - venv\Scripts\activate
+   MacOs- source venv/bin/activate  
    ```
 
 3. **Install Django:**
